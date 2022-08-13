@@ -12,7 +12,7 @@ class Counter extends Component{
     return(
       <div>
         <h1>{number}</h1>
-        <button onClick={()=>{this.setState({number:number+1})}}>
+        <button onClick={()=>{this.setState({number:number+1})}}> 
         +1
         </button>
       </div>
