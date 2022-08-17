@@ -19,8 +19,8 @@ const App = () => {
   //   </div>
   // );
   // return <Counter/>
-  // return <Info/>;
-  return <Average/>
+  return <Info/>;
+  // return <Average/>
 };
 
 export default App;
