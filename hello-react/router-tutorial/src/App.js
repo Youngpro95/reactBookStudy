@@ -5,11 +5,13 @@ import Articles from "./pages/Articles";
 import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import Layout from "./Layout";
+import Test from "./pages/Test";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
+        <Route path="/test" element={<Test/>}/>
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/profile/:username" element={<Profile />} />
