@@ -19,7 +19,7 @@ const fields = [{
   placeholder: '아무이름',
   checkValid: (v) => v.length >= 1 && v.length <= 5,
 }]
-
+//useRef사용
 const App = () => { 
   const [values, setValues] = React.useState(fields.reduce((acc, { key, initialValue }) => ({ ...acc, [key]: initialValue }), {}));
   const refs = React.useRef(Array.from(Array(fields.length, () => null)));
