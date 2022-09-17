@@ -9,7 +9,7 @@ export const themeSlice = createSlice({
         changeColor: ( state, action ) => {
           console.log(state)
           console.log(action)  
-          state.value = action.payload
+          // state.value = action.payload
         },
     },
 });
